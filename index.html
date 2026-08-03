@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Gussing Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- Title Section -->
+        <div class="navbar">
+            <div class="top-card">
+                <div class="add-icon">
+                    <i class="fa-solid fa-desktop" style="color: rgb(109, 70, 216);"></i>
+                </div>
+                <div class="text">
+                    <p class="add-first">Range</p>
+                    <h2 class="add-second">1-100</h2>
+                </div>
+            </div>
+            
+            <div class="nav-title">
+                <h1>Number
+                    <span>
+                        Guessing
+                    </span>
+                    Game 🎯
+                </h1>
+                <p class="nav-second">
+                    I have selected a number between <span>&nbsp;1</span>&nbsp;and&nbsp;<span>100</span>. 
+                    Can you guess it?
+                </p>
+            </div>
+
+            <div class="top-card">
+                <div class="add-icon">
+                    <i class="fa-solid fa-star" style="color: rgb(218, 165, 32);"></i>
+                </div>
+                <div class="text">
+                    <p class="add-first2">Max Attempts</p>
+                    <h2 class="add-second2">10</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Game Section -->
+        <div class="game-layout">
+            <h2>Enter your guess</h2>
+            <div class="input-area">
+                <input type="number" id="input" placeholder="Enter a number between 1 to 100">
+                <button type="button" id="guess-btn">Guess</button>
+            </div>
+
+            <div class="result-section">
+                <h4 id="result-icon">?</h4>
+                <div class="result-title">
+                    <h2 id="result-heading">Start guessing!</h2>
+                    <p id="result-desc">Make a guess to see if you're too high or too low.</p>
+                </div>
+            </div>
+
+            <div class="bottom-part">
+                <div class="info-box1">
+                    <h3>Attempts Left</h3>
+                    <div class="circle">
+                        <span id="attempts">
+                            10
+                        </span>
+                    </div>
+                    <p>out of 10</p>
+                </div>
+
+                <div class="info-box2">
+                    <h3>Previous Guesses</h3>
+                    <div id="history" class="history">
+                        <i class="fa-regular fa-clipboard" style="color: #1e90ff;"></i>
+                        <p>No guesses yet</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+        <footer>
+            <div class="rules">
+                <div class="rules-content">
+                    <h3>
+                        <i class="fa-regular fa-lightbulb" style="color: rgb(255, 212, 59);"></i>
+                        How to Play
+                    </h3>
+                    <p>
+                        Guess the secret number between 1 and 100.
+                        <br>
+                        You have 10 attempts. Good luck!
+                    </p>
+                </div>
+
+                <button id="restartBtn">
+                    <i class="fa-solid fa-arrow-rotate-right" style="color: rgb(255, 255, 255);"></i>
+                    Restart Game
+                </button>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+</body>
+</html>
