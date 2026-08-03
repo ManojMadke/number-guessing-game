@@ -36,10 +36,14 @@ o HTML5
 o CSS3
 o JavaScript (ES6)
 
-📸 Screenshot
-
-(Add your project screenshot here)
-
 🌐 Live Demo
 
-(Add your GitHub Pages link here)
+https://number-guessing-game-ten-iota.vercel.app
+
+📸 Screenshot
+
+o Initial Screen
+<img width="1920" height="1080" alt="Screenshot 2026-08-03 145210" src="https://github.com/user-attachments/assets/997df202-20ce-4b35-8530-77e537723a3e" />
+
+o Winning State
+<img width="1920" height="1080" alt="Screenshot 2026-08-03 145322" src="https://github.com/user-attachments/assets/dac8e1ef-3dce-464f-8b47-e0cd6665ca1c" />
